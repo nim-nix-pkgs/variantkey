@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-variantkey-master.flake = false;
+  inputs.src-variantkey-master.ref   = "refs/heads/master";
   inputs.src-variantkey-master.owner = "brentp";
-  inputs.src-variantkey-master.ref   = "master";
   inputs.src-variantkey-master.repo  = "variantkey-nim";
   inputs.src-variantkey-master.type  = "github";
   
